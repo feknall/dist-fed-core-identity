@@ -7,21 +7,21 @@ from random import randint
 
 from aiohttp import ClientError
 
-from identity import role_constatns
-from identity.base.support.agent import CRED_FORMAT_INDY, CRED_FORMAT_JSON_LD
-from identity.base.support.utils import log_json
-from identity.common.fabric_ca_args_parser import FabricCaArgParser
-from identity.common.fabric_ca_client_wrapper import FabricCaClientWrapper
+import role_constants
+from base.support.agent import CRED_FORMAT_INDY, CRED_FORMAT_JSON_LD
+from base.support.utils import log_json
+from common.fabric_ca_args_parser import FabricCaArgParser
+from common.fabric_ca_client_wrapper import FabricCaClientWrapper
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from identity.base.agent_container import (  # noqa:E402
+from base.agent_container import (  # noqa:E402
     arg_parser,
     create_agent_with_args,
     AriesAgent,
 )
 
-from identity.base.support.utils import (  # noqa:E402
+from base.support.utils import (  # noqa:E402
     log_msg,
     log_status,
     prompt,
@@ -299,19 +299,19 @@ async def main(args):
                     role = await prompt("Enter role (trainer/flAdmin/leadAggregator/aggregator):")
                     random_number = str(randint(0, 100000))
 
-                    if role == role_constatns.ROLE_TRAINER:
+                    if role == role_constants.ROLE_TRAINER:
                         id_name = "trainer" + random_number
                         id_secret = "trainer" + random_number + "pw"
                         fabric_ca_client_wrapper.register_trainer(id_name, id_secret)
-                    elif role == role_constatns.ROLE_AGGREGATOR:
+                    elif role == role_constants.ROLE_AGGREGATOR:
                         id_name = "aggregator" + random_number
                         id_secret = "aggregator" + random_number + "pw"
                         fabric_ca_client_wrapper.register_aggregator(id_name, id_secret)
-                    elif role == role_constatns.ROLE_FL_ADMIN:
+                    elif role == role_constants.ROLE_FL_ADMIN:
                         id_name = "flAdmin" + random_number
                         id_secret = "flAdmin" + random_number + "pw"
                         fabric_ca_client_wrapper.register_fl_admin(id_name, id_secret)
-                    elif role == role_constatns.ROLE_LEAD_AGGREGATOR:
+                    elif role == role_constants.ROLE_LEAD_AGGREGATOR:
                         id_name = "leadAggregator" + random_number
                         id_secret = "leadAggregator" + random_number + "pw"
                         fabric_ca_client_wrapper.register_lead_aggregator(id_name, id_secret)

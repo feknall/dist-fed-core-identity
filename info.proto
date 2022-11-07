@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package com.example.fljavagateway;
-
-message Event {
-  string name = 1;
-  bytes payload = 2;
-}

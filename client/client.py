@@ -7,17 +7,17 @@ import os
 import sys
 from urllib.parse import urlparse
 
-from identity.common.fabric_ca_args_parser import FabricCaArgParser
-from identity.common.fabric_ca_client_wrapper import FabricCaClientWrapper
+from common.fabric_ca_args_parser import FabricCaArgParser
+from common.fabric_ca_client_wrapper import FabricCaClientWrapper
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from identity.base.agent_container import (  # noqa:E402
+from base.agent_container import (  # noqa:E402
     arg_parser,
     create_agent_with_args,
     AriesAgent,
 )
-from identity.base.support.utils import (  # noqa:E402
+from base.support.utils import (  # noqa:E402
     check_requires,
     log_msg,
     log_status,

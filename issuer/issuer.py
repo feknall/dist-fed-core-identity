@@ -6,12 +6,12 @@ import sys
 
 from aiohttp import ClientError
 
-from identity.base.support.agent import CRED_FORMAT_INDY, CRED_FORMAT_JSON_LD
-from identity.base.support.utils import log_json
+from base.support.agent import CRED_FORMAT_INDY, CRED_FORMAT_JSON_LD
+from base.support.utils import log_json
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from identity.base.agent_container import (  # noqa:E402
+from base.agent_container import (  # noqa:E402
     arg_parser,
     create_agent_with_args,
     AriesAgent,
@@ -20,7 +20,7 @@ from identity.base.agent_container import (  # noqa:E402
 #     CRED_FORMAT_INDY,
 #     CRED_FORMAT_JSON_LD,
 # )
-from identity.base.support.utils import (  # noqa:E402
+from base.support.utils import (  # noqa:E402
     log_msg,
     log_status,
     prompt,

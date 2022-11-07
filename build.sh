@@ -1,9 +1,5 @@
 #!/bin/bash
 
-docker build -t dist-fed-core-fl . -f fl/Dockerfile
-docker tag dist-fed-core-fl hmaid/hyperledger:dist-fed-core-fl
-docker push hmaid/hyperledger:dist-fed-core-fl
-
 docker build -t dist-fed-core-identity . -f Dockerfile
 docker tag dist-fed-core-identity hmaid/hyperledger:dist-fed-core-identity
 docker push hmaid/hyperledger:dist-fed-core-identity
