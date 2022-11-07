@@ -15,3 +15,5 @@ docker push hmaid/hyperledger:dist-fed-core-identity-issuer
 docker build -t dist-fed-core-identity-verifier . -f verifier/Dockerfile
 docker tag dist-fed-core-identity-verifier hmaid/hyperledger:dist-fed-core-identity-verifier
 docker push hmaid/hyperledger:dist-fed-core-identity-verifier
+
+./von-network/manage build
