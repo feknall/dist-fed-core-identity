@@ -7,7 +7,7 @@ from random import randint
 
 from aiohttp import ClientError
 
-import role_constants
+
 from base.support.agent import CRED_FORMAT_INDY, CRED_FORMAT_JSON_LD
 from base.support.utils import log_json
 from common.fabric_ca_args_parser import FabricCaArgParser
@@ -35,6 +35,10 @@ TAILS_FILE_COUNT = int(os.getenv("TAILS_FILE_COUNT", 100))
 logging.basicConfig(level=logging.WARNING)
 LOGGER = logging.getLogger(__name__)
 
+ROLE_TRAINER = "trainer"
+ROLE_FL_ADMIN = "flAdmin"
+ROLE_AGGREGATOR = "aggregator"
+ROLE_LEAD_AGGREGATOR = "leadAggregator"
 
 class VerifierAgent(AriesAgent):
     def __init__(
@@ -299,19 +303,19 @@ async def main(args):
                     role = await prompt("Enter role (trainer/flAdmin/leadAggregator/aggregator):")
                     random_number = str(randint(0, 100000))
 
-                    if role == role_constants.ROLE_TRAINER:
+                    if role == ROLE_TRAINER:
                         id_name = "trainer" + random_number
                         id_secret = "trainer" + random_number + "pw"
                         fabric_ca_client_wrapper.register_trainer(id_name, id_secret)
-                    elif role == role_constants.ROLE_AGGREGATOR:
+                    elif role == ROLE_AGGREGATOR:
                         id_name = "aggregator" + random_number
                         id_secret = "aggregator" + random_number + "pw"
                         fabric_ca_client_wrapper.register_aggregator(id_name, id_secret)
-                    elif role == role_constants.ROLE_FL_ADMIN:
+                    elif role == ROLE_FL_ADMIN:
                         id_name = "flAdmin" + random_number
                         id_secret = "flAdmin" + random_number + "pw"
                         fabric_ca_client_wrapper.register_fl_admin(id_name, id_secret)
-                    elif role == role_constants.ROLE_LEAD_AGGREGATOR:
+                    elif role == ROLE_LEAD_AGGREGATOR:
                         id_name = "leadAggregator" + random_number
                         id_secret = "leadAggregator" + random_number + "pw"
                         fabric_ca_client_wrapper.register_lead_aggregator(id_name, id_secret)
