@@ -12,7 +12,7 @@ from qrcode import QRCode
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from identity.base.support.agent import (  # noqa:E402
+from base.support.agent import (  # noqa:E402
     DemoAgent,
     default_genesis_txns,
     start_mediator_agent,
@@ -23,7 +23,7 @@ from identity.base.support.agent import (  # noqa:E402
     DID_METHOD_KEY,
     KEY_TYPE_BLS,
 )
-from identity.base.support.utils import (  # noqa:E402
+from base.support.utils import (  # noqa:E402
     check_requires,
     log_json,
     log_msg,

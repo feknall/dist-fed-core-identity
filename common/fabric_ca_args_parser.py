@@ -1,4 +1,4 @@
-from identity.base.support.utils import log_msg
+from base.support.utils import log_msg
 
 
 class FabricCaArgParser:
