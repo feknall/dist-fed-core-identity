@@ -1242,9 +1242,9 @@ def arg_parser(ident: str = None, port: int = 8020):
         help="Specify the port of ca server for fabric ca client"
     )
     parser.add_argument(
-        "--fabric-ca-client-tls-certfiles",
+        "--fabric-ca-tls-certfiles",
         type=str,
-        metavar="<fabric-ca-client-ca-port>",
+        metavar="<fabric-ca-tls-certfiles>",
         help="Specify the tls certfiles of ca server for fabric ca client"
     )
     parser.add_argument(

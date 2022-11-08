@@ -30,8 +30,8 @@ class FabricCaArgParser:
         self.port = args.fabric_ca_client_ca_port
         log_msg(f"Fabric Ca Client Ca Port: {self.port}")
 
-        self.tls_certfiles = args.fabric_ca_client_tls_certfiles
-        log_msg(f"Fabric Ca Enrollment ID: {self.tls_certfiles}")
+        self.tls_certfiles = args.fabric_ca_tls_certfiles
+        log_msg(f"Fabric Ca TLS cert files: {self.tls_certfiles}")
 
         self.msp = args.fabric_ca_client_msp
         log_msg(f"Fabric Ca MSP: {self.msp}")
