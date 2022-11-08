@@ -9,12 +9,17 @@ ENV PYTHONPATH=${PYTHONPATH}:/project
 ENV LEDGER_URL=http://localhost:9000
 ENV GENESIS_FILE=/project/von-network/genesis/genesis.txt
 
-RUN apt-get update && apt-get install -y iputils-ping libtool libltdl-dev git
-RUN curl -OL https://go.dev/dl/go1.19.3.linux-amd64.tar.gz
-RUN tar -C /usr/local -xvf go1.19.3.linux-amd64.tar.gz
-ENV PATH="${PATH}:/usr/local/go/bin"
+COPY --from=golang:1.18 /usr/local/go/ /usr/local/go/
+ENV PATH="/usr/local/go/bin:${PATH}"
+ENV GOPATH="/go"
+ENV PATH="$GOPATH/bin:${PATH}"
 
-RUN git clone https://github.com/hyperledger/fabric-ca.git
-RUN cd fabric-ca && go get -u github.com/hyperledger/fabric-ca/cmd/...
+RUN go version
+
+RUN apt-get update && apt-get install -y iputils-ping libtool libltdl-dev git
+RUN curl -sSL https://bit.ly/2ysbOFE --output script.sh
+RUN chmod +x script.sh && ./script.sh -d -s && cp bin/fabric-ca-client /usr/local/bin
+RUN fabric-ca-client version
+
 RUN python -m pip install --upgrade pip
 RUN pip install --no-cache-dir -r /project/requirements.txt

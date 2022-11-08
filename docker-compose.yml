@@ -39,6 +39,9 @@ services:
     network_mode: "host"
     tty: true
     stdin_open: true
+    volumes:
+      # /home/hamid/Documents/dist-fed-chaincode/test-network/organizations
+      - ${DIST_FED_CREDENTIAL_HOME}:/credential
     command:
       - "--wallet-type"
       - "indy"
