@@ -15,10 +15,6 @@ services:
       - "--wallet-type"
       - "indy"
       - "--no-auto"
-      - "--fabric-ca-client-enrollment-id"
-      - "trainer1"
-      - "--fabric-ca-client-enrollment-secret"
-      - "trainer1pw"
       - "--fabric-ca-client-home"
       - "/credential/peerOrganizations/org1.example.com"
       - "--fabric-ca-client-ca-address"
@@ -43,13 +39,11 @@ services:
       # /home/hamid/Documents/dist-fed-chaincode/test-network/organizations
       - ${DIST_FED_CREDENTIAL_HOME}:/credential
     command:
-      - "--wallet-type"
-      - "indy"
       - "--no-auto"
       - "--fabric-ca-client-enrollment-id"
-      - "trainer1"
+      - "admin"
       - "--fabric-ca-client-enrollment-secret"
-      - "trainer1pw"
+      - "adminpw"
       - "--fabric-ca-client-home"
       - "/credential/peerOrganizations/org1.example.com"
       - "--fabric-ca-client-ca-address"
@@ -60,8 +54,6 @@ services:
       - "ca-org1"
       - "--fabric-ca-tls-certfiles"
       - "/credential/fabric-ca/org1/ca-cert.pem"
-      - "--fabric-ca-client-msp"
-      - "/credential/peerOrganizations/org1.example.com/users/Trainer1@org1.example.com/msp"
   issuer:
     container_name: identity-issuer
     image: hmaid/hyperledger:dist-fed-core-identity-issuer

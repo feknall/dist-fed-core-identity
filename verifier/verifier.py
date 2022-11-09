@@ -275,7 +275,7 @@ async def main(args):
 
                     pres_ex_id = await prompt("Enter pres-ex-id: ")
                     verify_resp = await verifier_agent.agent.admin_POST(
-                        '/present-proof/records/' + pres_ex_id + '/verifier-presentation')
+                        '/present-proof/records/' + pres_ex_id + '/verify-presentation')
                     log_json(verify_resp)
                     if verify_resp['verified'] == "true":
                         log_msg("Identity verified successfully.")

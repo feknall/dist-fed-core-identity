@@ -4,164 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9de3146d-3f27-41ff-9ceb-a4b752ed9129" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conda-docker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.bdd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.demo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.fixpermissions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.run" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/Dockerfile.test-indy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/manage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/environment.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/aggregator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/aggregator/aggregator_control_panel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/aggregator/aggregator_event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/aggregator/aggregator_event_processor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/aggregator/aggregator_gateway_rest_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/aggregator/aggregator_runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/dto.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/fladmin/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/fladmin/fl_admin_control_panel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/fladmin/fl_admin_event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/fladmin/fl_admin_event_processor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/fladmin/fl_admin_gateway_rest_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/fladmin/fl_admin_runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/flevents/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/flevents/event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/flevents/event_processor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/gateway_rest_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/leadaggregator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/leadaggregator/lead_aggregator_control_panel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/leadaggregator/lead_aggregator_event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/leadaggregator/lead_aggregator_event_processor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/leadaggregator/lead_aggregator_gateway_rest_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/leadaggregator/lead_aggregator_runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/mnist_common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/simple_periodic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trainer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trainer/trainer_control_panel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trainer/trainer_event_listener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trainer/trainer_event_processor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trainer/trainer_gateway_rest_api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trainer/trainer_runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trash/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trash/aggregator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trash/client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trash/fedshare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fl/trash/lead_aggregator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/base/agent_container.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/base/support/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/base/support/agent.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/base/support/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/client/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/client/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/client/client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/common/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/common/fabric_ca_args_parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/common/fabric_ca_client_wrapper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/issuer/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/issuer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/issuer/issuer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/role_constatns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/verifier/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/verifier/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/identity/verifier/verifier.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/info_pb2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.askar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.bbs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.indy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/generate-open-api-spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run_docker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run_postgres" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run_tests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/run_tests_indy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/.github/workflows/build-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/COMPLIANCE.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/bin/read_ledger" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/bin/von_generate_transactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/attach-wallet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/create-signed-cred-def" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/create-signed-schema" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/create-wallet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/cred_def.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/detach-wallet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/did-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/endorse-transaction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/export-wallet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/generate_did.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/import-wallet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/set_did_metadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/start-session" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/cli-scripts/write-transaction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/config/sample_aml.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/config/sample_taa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/docs/AddNewNode.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/docs/Indy-CLI.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/docs/Troubleshooting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/docs/UsingVONNetwork.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/docs/Writing Transactions to a Ledger for an Un-privileged Author.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/genesis/genesis.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/indy_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/manage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/certificate.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/settings.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/ledger-browser/ledger-browser-deploy.overrides.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/ledger-browser/ledger-browser-deploy.param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/ledger-browser/ledger-browser-deploy.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-build.param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-build.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-deploy.dev.param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-deploy.param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-deploy.prod.param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-deploy.test.param" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/openshift/templates/nsp/nsp-deploy.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/scripts/manage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/scripts/start_client.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/scripts/start_node.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/scripts/start_nodes.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/scripts/start_synctest.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/scripts/start_webserver.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/anchor.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/analytics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/include/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/include/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/include/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/include/js/ledger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/static/ledger.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/server/synctest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/von-network/setup.cfg" beforeDir="false" />
-    </list>
+    <list default="true" id="9de3146d-3f27-41ff-9ceb-a4b752ed9129" name="Changes" comment="Successful enrolment of verifier in docker compose" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,6 +37,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Efo0xD3hmm66xM3trdOKJ2kQBM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -202,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -211,11 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/identity/verifier" />
       <recent name="$PROJECT_DIR$/identity/client" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fl/aggregator" />
-      <recent name="$PROJECT_DIR$/fl/leadaggregator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fl" />
@@ -226,271 +70,11 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.verifier">
-    <configuration name="aggregator_org1_runner" type="PythonConfigurationType" factoryName="Python">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fl/aggregator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/aggregator/aggregator_runner.py" />
-      <option name="PARAMETERS" value="localhost 8091" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="aggregator_org2_runner" type="PythonConfigurationType" factoryName="Python">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fl/aggregator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/aggregator/aggregator_runner.py" />
-      <option name="PARAMETERS" value="localhost 8092" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/identity/client" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/identity/client/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="GENESIS_FILE" value="$PROJECT_DIR$/../von-network/genesis/genesis.txt" />
-        <env name="DEFAULT_POSTGRES" value="true" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/identity/client/client.py" />
-      <option name="PARAMETERS" value="--wallet-type indy --no-auto --fabric-ca-client-enrollment-id trainer1 --fabric-ca-client-enrollment-secret trainer1pw --fabric-ca-client-home $PROJECT_DIR$/../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com --fabric-ca-client-ca-address localhost --fabric-ca-client-ca-port 7054 --fabric-ca-client-ca-name ca-org1 --fabric-ca-client-tls-certfiles $PROJECT_DIR$/../fabric-samples/test-network/organizations/fabric-ca/org1/ca-cert.pem --fabric-ca-client-msp $PROJECT_DIR$/../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Trainer1@org1.example.com/msp" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fl_admin_runner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fl/fladmin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/fladmin/fl_admin_runner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="issuer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="LEDGER_URL" value="http://localhost:9000" />
-        <env name="GENESIS_FILE" value="$PROJECT_DIR$/../von-network/genesis/genesis.txt" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/identity/issuer/issuer.py" />
-      <option name="PARAMETERS" value="--wallet-type indy --no-auto" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lead_aggregator_runner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fl/leadaggregator" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/leadaggregator/lead_aggregator_runner.py" />
-      <option name="PARAMETERS" value="localhost 8082" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/main.py" />
-      <option name="PARAMETERS" value="flAdmin localhost 8091" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="trainer01_runner" type="PythonConfigurationType" factoryName="Python" singleton="false">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/trainer/trainer_runner.py" />
-      <option name="PARAMETERS" value="localhost 8080 0" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="trainer02_runner" type="PythonConfigurationType" factoryName="Python" singleton="false">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fl/trainer/trainer_runner.py" />
-      <option name="PARAMETERS" value="localhost 8081 1" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="verifier" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="FedBlockchain" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="GENESIS_FILE" value="$PROJECT_DIR$/../von-network/genesis/genesis.txt" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/identity/verifier/verifier.py" />
-      <option name="PARAMETERS" value="--wallet-type indy --no-auto --fabric-ca-client-enrollment-id trainer1 --fabric-ca-client-enrollment-secret trainer1pw --fabric-ca-client-home $PROJECT_DIR$/../dist-fed-chaincode/test-network/organizations/peerOrganizations/org1.example.com --fabric-ca-client-ca-address localhost --fabric-ca-client-ca-port 7054 --fabric-ca-client-ca-name ca-org1 --fabric-ca-client-tls-certfiles $PROJECT_DIR$/../dist-fed-chaincode/test-network/organizations/fabric-ca/org1/ca-cert.pem --fabric-ca-client-msp $PROJECT_DIR$/../dist-fed-chaincode/test-network/organizations/peerOrganizations/org1.example.com/users/Trainer1@org1.example.com/msp" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.trainer01_runner" />
-      <item itemvalue="Python.trainer02_runner" />
-      <item itemvalue="Python.aggregator_org1_runner" />
-      <item itemvalue="Python.aggregator_org2_runner" />
-      <item itemvalue="Python.lead_aggregator_runner" />
-      <item itemvalue="Python.fl_admin_runner" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.client" />
       <item itemvalue="Python.issuer" />
       <item itemvalue="Python.verifier" />
-      <item itemvalue="Python.client (1)" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.client (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -612,7 +196,35 @@
       <option name="project" value="LOCAL" />
       <updated>1667488407882</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add workspace.xml for keeping running settings">
+      <created>1667828009549</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667828009549</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add workspace.xml for keeping running settings">
+      <created>1667828852880</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667828852880</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix docker problems for fabric-ca-client">
+      <created>1667870553786</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667870553786</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Successful enrolment of verifier in docker compose">
+      <created>1667878147260</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667878147261</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +256,10 @@
     <MESSAGE value="Use global docker image" />
     <MESSAGE value="Change name" />
     <MESSAGE value="Fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix bug" />
+    <MESSAGE value="Add workspace.xml for keeping running settings" />
+    <MESSAGE value="Fix docker problems for fabric-ca-client" />
+    <MESSAGE value="Successful enrolment of verifier in docker compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successful enrolment of verifier in docker compose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,22 +280,22 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dist-fed-core-identity/base/agent_container.py</url>
+          <url>file://$PROJECT_DIR$/base/agent_container.py</url>
           <line>718</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dist-fed-core-identity/base/agent_container.py</url>
+          <url>file://$PROJECT_DIR$/base/agent_container.py</url>
           <line>719</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dist-fed-core-identity/base/support/agent.py</url>
+          <url>file://$PROJECT_DIR$/base/support/agent.py</url>
           <line>507</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../dist-fed-core-identity/base/support/agent.py</url>
+          <url>file://$PROJECT_DIR$/base/support/agent.py</url>
           <line>498</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -696,6 +311,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FedBlockchain$trainer02_runner.coverage" NAME="trainer02_runner Coverage Results" MODIFIED="1666840019173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl" />
+    <SUITE FILE_PATH="coverage/dist_fed_core_identity$client.coverage" NAME="client Coverage Results" MODIFIED="1667829016055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/dist_fed_core_identity$issuer.coverage" NAME="issuer Coverage Results" MODIFIED="1667829025130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FedBlockchain$main.coverage" NAME="main Coverage Results" MODIFIED="1666238997495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/FedBlockchain$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1667346985103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/identity/client" />
     <SUITE FILE_PATH="coverage/FedBlockchain$aggregator_runner.coverage" NAME="aggregator_org1_runner Coverage Results" MODIFIED="1666840022441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl/aggregator" />
@@ -707,6 +324,7 @@
     <SUITE FILE_PATH="coverage/FedBlockchain$trainer1_panel.coverage" NAME="trainer_panel Coverage Results" MODIFIED="1665510692729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl" />
     <SUITE FILE_PATH="coverage/FedBlockchain$lead_aggregator_runner.coverage" NAME="lead_aggregator_runner Coverage Results" MODIFIED="1666840024494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl/leadaggregator" />
     <SUITE FILE_PATH="coverage/FedBlockchain$trainer_control_panel.coverage" NAME="trainer_control_panel Coverage Results" MODIFIED="1665502388639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl/controlpanel" />
+    <SUITE FILE_PATH="coverage/dist_fed_core_identity$verifier.coverage" NAME="verifier Coverage Results" MODIFIED="1667841978357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/FedBlockchain$fl_admin_panel.coverage" NAME="fl_admin_panel Coverage Results" MODIFIED="1665008662369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl/panel" />
     <SUITE FILE_PATH="coverage/FedBlockchain$trainer_runner.coverage" NAME="trainer01_runner Coverage Results" MODIFIED="1666840017512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fl" />
     <SUITE FILE_PATH="coverage/FedBlockchain$verifier.coverage" NAME="verifier Coverage Results" MODIFIED="1667410670688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
